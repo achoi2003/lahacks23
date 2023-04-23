@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: purple;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: nowrap; 
+  background-color: white; 
+  justify-content: space-around; 
+  align-items: center; 
+  width: 100%;
+}
+
+.flex-container > div {
+  width: 100%; /* width of element */
+  margin: 5px; /* creates space around elements outside of defined borders  */
+  line-height: 80px; 
+  background-color: rgb(75, 150, 175);  
+}
+
+/* year titles */
+.header{
+  padding: 20px;
+  color: rgb(75, 150, 175);
+}
+
+/* subtables within each quarter */
+.flex-table{
+  display: flex; 
+  flex-direction: column; 
+  flex-wrap: nowrap;
+  border: solid 2px black;
+}
+
+.flex-table > div{
+  width: 100%;
+  background-color: rgb(75, 150, 175); ;
+  border-bottom: solid 1px black; 
+  border-top: solid 1px black;
+}
+
+
+.title{
+  color: rgb(75, 150, 175); 
 }
