@@ -78,3 +78,9 @@
 .title{
   color: rgb(89, 177, 206); 
 }
+
+.dropdown-label {
+  display: inline-block;
+  margin-right: 50px;
+  color: black; 
+}
