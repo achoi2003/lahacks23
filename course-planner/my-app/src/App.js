@@ -1,10 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import React, {useState} from 'react';
 
+// function NumberInput() {
+//   const [number, setNumber] = useState('');
+
+//   function handleChange(event) {
+//     setNumber(event.target.value);
+//   }
+
+//   return (
+//     <div>
+//         <input type="number" value={number} onChange={handleChange} />
+//       <p>The number you entered is: {number}</p>
+//     </div>
+//   );
+//   }
 
 
 function App() {
-  const people = ['kevin', 'andy', 'alex'];
   return (
     <div className="App">
       <header className="App-header">
@@ -18,7 +32,7 @@ function App() {
         <div> 
           <div class = "flex-table">
             <div> <h4> Fall </h4> </div>
-            <div> <input type="text"/> <input type="text"/> </div>
+            <div> <input type="text"/> </div>
             <div> <input type="text"/> </div>
             <div> <input type="text"/> </div>
             <div> <input type="text"/> </div>
