@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 
+
+
 function App() {
   const people = ['kevin', 'andy', 'alex'];
   return (
     <div className="App">
       <header className="App-header">
-        <div class = "title"> <h1> College Degree Planner</h1> </div>
+        <div class = "title"> <h2> College Degree Planner</h2> </div>
 
         {/* start of the Academic Year */}
         <div class = "header"> <h5> Year 1 </h5></div>
@@ -16,7 +18,7 @@ function App() {
         <div> 
           <div class = "flex-table">
             <div> <h4> Fall </h4> </div>
-            <div> <input type="text"/> </div>
+            <div> <input type="text"/> <input type="text"/> </div>
             <div> <input type="text"/> </div>
             <div> <input type="text"/> </div>
             <div> <input type="text"/> </div>
